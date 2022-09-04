@@ -27,7 +27,7 @@ class MyStatelessWidget extends StatelessWidget {
         children: [
           Container(
             // A fixed-height child.
-            color: Colors.yellow.withOpacity(.5),
+            color: Colors.grey.withOpacity(.5),
             height: 120.0,
             alignment: Alignment.center,
             child: const Text('Container1'),
